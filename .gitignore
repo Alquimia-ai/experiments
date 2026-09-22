@@ -1,0 +1,18 @@
+# Credentials. Every runner reads them from a .env beside the paper folder.
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model weights the runners download on first use
+.cache/
+models/
+
+# Notebooks
+.ipynb_checkpoints/
+
+.DS_Store
