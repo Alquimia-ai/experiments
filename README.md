@@ -9,21 +9,5 @@ Nothing here is a library. The metric implementations live in
 the artifacts a reader needs to check a table in a paper against the run that produced
 it.
 
-## Papers
-
-| Folder | Paper |
-|---|---|
-| [`2026-09-accountability/`](2026-09-accountability) | Accountability: Measuring Respect for Human Oversight in Tool-Using Assistants |
-
-## Credentials
-
-Runners that call a provider read a `.env` placed beside the paper folder, which is
-never committed:
-
-```
-GROQ_API_KEY=...
-HF_TOKEN=...
-HF_BILL_TO=...
-```
 
 Any runner that needs no provider says so in its own README.
