@@ -9,5 +9,5 @@ Nothing here is a library. The metric implementations live in
 the artifacts a reader needs to check a table in a paper against the run that produced
 it.
 
-
-Any runner that needs no provider says so in its own README.
+Runners that call a provider read a `.env` placed beside the paper folder, which is
+never committed. Any runner that needs none says so in its own README.
